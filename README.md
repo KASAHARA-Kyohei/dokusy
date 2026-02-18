@@ -46,3 +46,12 @@ cargo test
 - `dokusy run <file.dk>`
 - `dokusy repl`
 
+## Zed シンタックスハイライト（開発用拡張）
+
+`zed-extension/dokusy` に `.dk` 用の開発拡張を同梱しています。
+
+```bash
+open zed-extension/dokusy
+```
+
+Zed で Command Palette から `zed: install dev extension` を実行し、上記ディレクトリを指定してください。
